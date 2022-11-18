@@ -13,17 +13,17 @@ export default function BodySection() {
         <Body
           content1={
             <>
-              <LightFonts cls={``}>
+              <LightFonts onClick={()=>{}} cls={``}>
                 Quickly and easily distribute your music directly from your
                 Radio Vault(s) to launch NFT campaigns for your community on any
                 blockchain.
               </LightFonts>
-              <LightFonts cls={`my-5`}>
+              <LightFonts  onClick={()=>{}} cls={`my-5`}>
                 With our technology, streams will be accounted for any time the
                 music is being listened to. This means when someone is listening
                 to an NFT a stream for licensing purposes is happening.
               </LightFonts>
-              <LightFonts>
+              <LightFonts onClick={()=>{}} cls={""} >
                 Permission your music to be streamed into the metaverse or
                 performed live in metaverse(s) directly from your user
                 dashboard. You are in complete control and ownership of the
@@ -46,23 +46,23 @@ export default function BodySection() {
         <Body
           content2={
             <>
-              <LightFonts cls={``}>
+              <LightFonts onClick={()=>{}} cls={``}>
                 With our infrastructure, you can be assured that you own and
                 control access to your music and its data. This will allow for
                 you to know where streams are coming from on the blockchain.
               </LightFonts>
-              <LightFonts cls={`my-5`}>
+              <LightFonts onClick={()=>{}} cls={`my-5`}>
                 Include all web 2.0 & web 3.0 music metadata & DSPs for any
                 particular song by an artist or record-label owned music. This
                 will allow you to distribute and license your music on the
                 blockchain and off-chain.
               </LightFonts>
-              <LightFonts cls={`mb-5`}>
+              <LightFonts onClick={()=>{}} cls={`mb-5`}>
                 The biggest problem the blockchain and music space currently
                 faces is how to properly license NFT technology/web 3.0 systems.
                 With this infrastructure we solve that problem.
               </LightFonts>
-              <LightFonts>
+              <LightFonts onClick={()=>{}} cls={``}>
                 Vaults are totally controlled by the individual or entity that
                 owns permissions to license music. This will invite thousands of
                 musicians to the blockchain whether they are an individual
@@ -85,11 +85,11 @@ export default function BodySection() {
         <Body
           content1={
             <>
-              <LightFonts cls={`mb-5`}>
+              <LightFonts onClick={()=>{}} cls={`mb-5`}>
                 We are committed to ensuring copyright laws and licensing
                 regulations are followed for blockchain technology. 
               </LightFonts>
-              <LightFonts cls={``}>
+              <LightFonts onClick={()=>{}} cls={``}>
                 If you are a musician or record label who wants their music streamed in
                 metaverses or minted as NFTs, sign up today to be a beta tester!
               </LightFonts>
