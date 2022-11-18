@@ -108,8 +108,11 @@ export default function BodySection() {
 
 function TitleSubTitle({ content1, content2 }) {
   return (
+    // @ts-ignore
     <ContentContainer>
+      {/* @ts-ignore */}
       <BoldFonts cls={`lg:text-4xl text-lg text-center`}>{content1}</BoldFonts>
+      {/* @ts-ignore */}
       <LightFonts cls={`lg:text-xl text-sm text-center lg:my-10 my-5`}>{content2}</LightFonts>
     </ContentContainer>
   );

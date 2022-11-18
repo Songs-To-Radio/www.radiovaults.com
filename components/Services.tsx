@@ -33,7 +33,9 @@ export default function Services({cls}) {
 function Text({ content1, content2 }) {
   return (
     <div className={`hover:bg-white lg:p-10 p-4`}>
+      {/* @ts-ignore */}
       <BoldFonts>{content1}</BoldFonts>
+      {/* @ts-ignore */}
       <LightFonts cls={`w-9/12`}>{content2}</LightFonts>
     </div>
   );

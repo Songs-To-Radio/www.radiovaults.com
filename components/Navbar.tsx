@@ -18,6 +18,7 @@ export default function Navbar() {
     >
       <ContentContainer cls={`w-9/12 h-[80px] flex justify-between items-center`}>
         <div className={`flex items-center`}>
+          {/* @ts-ignore */}
           <BoldFonts cls={`lg:text-3xl text-lg`}>
             RADIO<span className={`text-red-600`}>VAULTS</span>
           </BoldFonts>
@@ -38,6 +39,7 @@ export default function Navbar() {
             Signup
           </LightFonts> */}
         </div>
+        {/* @ts-ignore */}
         <Button cls={`lg:text-base text-xs`} >
           go to app
         </Button>
